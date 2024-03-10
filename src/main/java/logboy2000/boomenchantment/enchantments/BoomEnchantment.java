@@ -1,4 +1,4 @@
-package logboy2000.boomenchantment;
+package logboy2000.boomenchantment.enchantments;
 
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;

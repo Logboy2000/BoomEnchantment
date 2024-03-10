@@ -3,7 +3,7 @@
 	"id": "boomenchantment",
 	"version": "1.0.0",
 	"name": "Boom Enchantment",
-	"description": "Adds a simple explosive enchantment called 'Boom'",
+	"description": "Adds a simple explosive enchantment with 3 power levels",
 	"authors": [
 		"Logboy2000"
 	],

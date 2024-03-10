@@ -1,5 +1,6 @@
 package logboy2000.boomenchantment;
 
+import logboy2000.boomenchantment.enchantments.BoomEnchantment;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.enchantment.Enchantment;

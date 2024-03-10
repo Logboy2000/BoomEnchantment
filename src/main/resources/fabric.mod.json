@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "boomenchantment",
+	"version": "1.0.0",
+	"name": "Boom Enchantment",
+	"description": "Adds a simple explosive enchantment called 'Boom'",
+	"authors": [
+		"Logboy2000"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/boomenchantment/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"logboy2000.boomenchantment.BoomEnchantmentMain"
+		],
+		"client": [
+			"logboy2000.boomenchantment.BoomEnchantmentClient"
+		]
+	},
+	"mixins": [
+		"boomenchantment.mixins.json",
+		{
+			"config": "boomenchantment.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "1.20.x",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
